@@ -4,9 +4,8 @@
 classDiagram
 LoginProtocol <|..UnsplashLogin
 
-class LoginProtocol{
+	class LoginProtocol
 	<<protocol>> LoginProtocol
-	+login()
-}
-
+	LoginProtocol: + state
+	LoginProtocol: + SignIn()
 ```
