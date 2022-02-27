@@ -6,3 +6,12 @@
 //
 
 import Foundation
+import OrderedCollections
+
+enum EncoderType {
+    case json
+    case url
+}
+protocol EncoderProtocol {
+    func encode(params: OrderedDictionary<String,Any>)
+}

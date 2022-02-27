@@ -6,27 +6,40 @@
 //
 
 import XCTest
+@testable import UnsplashAppDemo
+@testable import OrderedCollections
 
 class URLEncoderTests: XCTestCase {
-
+    var sut: RequestEnconder!
+    let string_baseURL = "https://someAPI.com/someEndPoint/"
+    
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        try super.setUpWithError()
+        let url = URL(string: string_baseURL)!
+        let urlRequest = URLRequest(url: url)
+        sut = RequestEnconder(type: .url, request: urlRequest)
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        sut = nil
+        try super.tearDownWithError()
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    // MARK: Init
+    func testInit_receives_EncoderType_and_URLRequest(){
+        XCTAssertEqual(sut.requestType, .url)
+        XCTAssertNotNil(sut.request.url?.absoluteString)
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    // MARK: Encoding
+    func test_encodeFunction_receivesParametersDictionary_outputsURLWithParameters(){
+        // given
+        let parameters: OrderedDictionary<String, Any> = ["param1": 1, "param2":2]
+        
+        // When encoding
+        sut.encode(params: parameters)
+        
+        // then
+        XCTAssertTrue(TestUtilities.very(request: sut.request, contains: parameters))
     }
-
 }

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,19 +11,17 @@
 		CC2E6B5827CAEFF80093CE10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2E6B5727CAEFF80093CE10 /* ContentView.swift */; };
 		CC2E6B5A27CAEFFA0093CE10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC2E6B5927CAEFFA0093CE10 /* Assets.xcassets */; };
 		CC2E6B5D27CAEFFA0093CE10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC2E6B5C27CAEFFA0093CE10 /* Preview Assets.xcassets */; };
-		CC2E6B6827CAEFFA0093CE10 /* UnsplashAppDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2E6B6727CAEFFA0093CE10 /* UnsplashAppDemoTests.swift */; };
-		CC2E6B7327CAEFFA0093CE10 /* UnsplashAppDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2E6B7227CAEFFA0093CE10 /* UnsplashAppDemoUITests.swift */; };
+		CC2E6B8227CAF0380093CE10 /* NetworkLayerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2E6B8127CAF0380093CE10 /* NetworkLayerTest.swift */; };
+		CC2E6B8527CAF05F0093CE10 /* NetworkLayerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2E6B8427CAF05F0093CE10 /* NetworkLayerProtocol.swift */; };
+		CC2E6B8727CAF0A40093CE10 /* EncoderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2E6B8627CAF0A40093CE10 /* EncoderProtocol.swift */; };
+		CC2E6B8927CAF10B0093CE10 /* RequestEnconder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2E6B8827CAF10B0093CE10 /* RequestEnconder.swift */; };
+		CC2E6B8D27CAF5290093CE10 /* URLEncoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2E6B8C27CAF5290093CE10 /* URLEncoderTests.swift */; };
+		CC2E6B9027CAF9C50093CE10 /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = CC2E6B8F27CAF9C50093CE10 /* OrderedCollections */; };
+		CC2E6B9227CAFFBE0093CE10 /* TestUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2E6B9127CAFFBE0093CE10 /* TestUtilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		CC2E6B6427CAEFFA0093CE10 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CC2E6B4A27CAEFF80093CE10 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CC2E6B5127CAEFF80093CE10;
-			remoteInfo = UnsplashAppDemo;
-		};
-		CC2E6B6F27CAEFFA0093CE10 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CC2E6B4A27CAEFF80093CE10 /* Project object */;
 			proxyType = 1;
@@ -40,11 +38,13 @@
 		CC2E6B5C27CAEFFA0093CE10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CC2E6B5E27CAEFFA0093CE10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC2E6B6327CAEFFA0093CE10 /* UnsplashAppDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnsplashAppDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC2E6B6727CAEFFA0093CE10 /* UnsplashAppDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashAppDemoTests.swift; sourceTree = "<group>"; };
 		CC2E6B6927CAEFFA0093CE10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC2E6B6E27CAEFFA0093CE10 /* UnsplashAppDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnsplashAppDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC2E6B7227CAEFFA0093CE10 /* UnsplashAppDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashAppDemoUITests.swift; sourceTree = "<group>"; };
-		CC2E6B7427CAEFFA0093CE10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC2E6B8127CAF0380093CE10 /* NetworkLayerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayerTest.swift; sourceTree = "<group>"; };
+		CC2E6B8427CAF05F0093CE10 /* NetworkLayerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayerProtocol.swift; sourceTree = "<group>"; };
+		CC2E6B8627CAF0A40093CE10 /* EncoderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncoderProtocol.swift; sourceTree = "<group>"; };
+		CC2E6B8827CAF10B0093CE10 /* RequestEnconder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestEnconder.swift; sourceTree = "<group>"; };
+		CC2E6B8C27CAF5290093CE10 /* URLEncoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLEncoderTests.swift; sourceTree = "<group>"; };
+		CC2E6B9127CAFFBE0093CE10 /* TestUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUtilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,17 +52,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC2E6B9027CAF9C50093CE10 /* OrderedCollections in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CC2E6B6027CAEFFA0093CE10 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CC2E6B6B27CAEFFA0093CE10 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,7 +71,6 @@
 			children = (
 				CC2E6B5427CAEFF80093CE10 /* UnsplashAppDemo */,
 				CC2E6B6627CAEFFA0093CE10 /* UnsplashAppDemoTests */,
-				CC2E6B7127CAEFFA0093CE10 /* UnsplashAppDemoUITests */,
 				CC2E6B5327CAEFF80093CE10 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +80,6 @@
 			children = (
 				CC2E6B5227CAEFF80093CE10 /* UnsplashAppDemo.app */,
 				CC2E6B6327CAEFFA0093CE10 /* UnsplashAppDemoTests.xctest */,
-				CC2E6B6E27CAEFFA0093CE10 /* UnsplashAppDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +87,7 @@
 		CC2E6B5427CAEFF80093CE10 /* UnsplashAppDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CC2E6B8327CAF0490093CE10 /* NetworkLayer */,
 				CC2E6B5527CAEFF80093CE10 /* UnsplashAppDemoApp.swift */,
 				CC2E6B5727CAEFF80093CE10 /* ContentView.swift */,
 				CC2E6B5927CAEFFA0093CE10 /* Assets.xcassets */,
@@ -115,19 +108,30 @@
 		CC2E6B6627CAEFFA0093CE10 /* UnsplashAppDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				CC2E6B6727CAEFFA0093CE10 /* UnsplashAppDemoTests.swift */,
+				CC2E6B8027CAF0260093CE10 /* NetworkLayer */,
 				CC2E6B6927CAEFFA0093CE10 /* Info.plist */,
+				CC2E6B9127CAFFBE0093CE10 /* TestUtilities.swift */,
 			);
 			path = UnsplashAppDemoTests;
 			sourceTree = "<group>";
 		};
-		CC2E6B7127CAEFFA0093CE10 /* UnsplashAppDemoUITests */ = {
+		CC2E6B8027CAF0260093CE10 /* NetworkLayer */ = {
 			isa = PBXGroup;
 			children = (
-				CC2E6B7227CAEFFA0093CE10 /* UnsplashAppDemoUITests.swift */,
-				CC2E6B7427CAEFFA0093CE10 /* Info.plist */,
+				CC2E6B8127CAF0380093CE10 /* NetworkLayerTest.swift */,
+				CC2E6B8C27CAF5290093CE10 /* URLEncoderTests.swift */,
 			);
-			path = UnsplashAppDemoUITests;
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		CC2E6B8327CAF0490093CE10 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				CC2E6B8427CAF05F0093CE10 /* NetworkLayerProtocol.swift */,
+				CC2E6B8627CAF0A40093CE10 /* EncoderProtocol.swift */,
+				CC2E6B8827CAF10B0093CE10 /* RequestEnconder.swift */,
+			);
+			path = NetworkLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +150,9 @@
 			dependencies = (
 			);
 			name = UnsplashAppDemo;
+			packageProductDependencies = (
+				CC2E6B8F27CAF9C50093CE10 /* OrderedCollections */,
+			);
 			productName = UnsplashAppDemo;
 			productReference = CC2E6B5227CAEFF80093CE10 /* UnsplashAppDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -168,24 +175,6 @@
 			productReference = CC2E6B6327CAEFFA0093CE10 /* UnsplashAppDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CC2E6B6D27CAEFFA0093CE10 /* UnsplashAppDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CC2E6B7D27CAEFFA0093CE10 /* Build configuration list for PBXNativeTarget "UnsplashAppDemoUITests" */;
-			buildPhases = (
-				CC2E6B6A27CAEFFA0093CE10 /* Sources */,
-				CC2E6B6B27CAEFFA0093CE10 /* Frameworks */,
-				CC2E6B6C27CAEFFA0093CE10 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CC2E6B7027CAEFFA0093CE10 /* PBXTargetDependency */,
-			);
-			name = UnsplashAppDemoUITests;
-			productName = UnsplashAppDemoUITests;
-			productReference = CC2E6B6E27CAEFFA0093CE10 /* UnsplashAppDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,10 +191,6 @@
 						CreatedOnToolsVersion = 12.5;
 						TestTargetID = CC2E6B5127CAEFF80093CE10;
 					};
-					CC2E6B6D27CAEFFA0093CE10 = {
-						CreatedOnToolsVersion = 12.5;
-						TestTargetID = CC2E6B5127CAEFF80093CE10;
-					};
 				};
 			};
 			buildConfigurationList = CC2E6B4D27CAEFF80093CE10 /* Build configuration list for PBXProject "UnsplashAppDemo" */;
@@ -217,13 +202,15 @@
 				Base,
 			);
 			mainGroup = CC2E6B4927CAEFF80093CE10;
+			packageReferences = (
+				CC2E6B8E27CAF9C50093CE10 /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
 			productRefGroup = CC2E6B5327CAEFF80093CE10 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				CC2E6B5127CAEFF80093CE10 /* UnsplashAppDemo */,
 				CC2E6B6227CAEFFA0093CE10 /* UnsplashAppDemoTests */,
-				CC2E6B6D27CAEFFA0093CE10 /* UnsplashAppDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,13 +232,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC2E6B6C27CAEFFA0093CE10 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,7 +239,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC2E6B8527CAF05F0093CE10 /* NetworkLayerProtocol.swift in Sources */,
 				CC2E6B5827CAEFF80093CE10 /* ContentView.swift in Sources */,
+				CC2E6B8927CAF10B0093CE10 /* RequestEnconder.swift in Sources */,
+				CC2E6B8727CAF0A40093CE10 /* EncoderProtocol.swift in Sources */,
 				CC2E6B5627CAEFF80093CE10 /* UnsplashAppDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,15 +251,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC2E6B6827CAEFFA0093CE10 /* UnsplashAppDemoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CC2E6B6A27CAEFFA0093CE10 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CC2E6B7327CAEFFA0093CE10 /* UnsplashAppDemoUITests.swift in Sources */,
+				CC2E6B9227CAFFBE0093CE10 /* TestUtilities.swift in Sources */,
+				CC2E6B8227CAF0380093CE10 /* NetworkLayerTest.swift in Sources */,
+				CC2E6B8D27CAF5290093CE10 /* URLEncoderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +264,6 @@
 			isa = PBXTargetDependency;
 			target = CC2E6B5127CAEFF80093CE10 /* UnsplashAppDemo */;
 			targetProxy = CC2E6B6427CAEFFA0093CE10 /* PBXContainerItemProxy */;
-		};
-		CC2E6B7027CAEFFA0093CE10 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CC2E6B5127CAEFF80093CE10 /* UnsplashAppDemo */;
-			targetProxy = CC2E6B6F27CAEFFA0093CE10 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -500,46 +472,6 @@
 			};
 			name = Release;
 		};
-		CC2E6B7E27CAEFFA0093CE10 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GQGZN6D9K9;
-				INFOPLIST_FILE = UnsplashAppDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.nesslab.com.UnsplashAppDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = UnsplashAppDemo;
-			};
-			name = Debug;
-		};
-		CC2E6B7F27CAEFFA0093CE10 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GQGZN6D9K9;
-				INFOPLIST_FILE = UnsplashAppDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.nesslab.com.UnsplashAppDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = UnsplashAppDemo;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -570,16 +502,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC2E6B7D27CAEFFA0093CE10 /* Build configuration list for PBXNativeTarget "UnsplashAppDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CC2E6B7E27CAEFFA0093CE10 /* Debug */,
-				CC2E6B7F27CAEFFA0093CE10 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CC2E6B8E27CAF9C50093CE10 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CC2E6B8F27CAF9C50093CE10 /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC2E6B8E27CAF9C50093CE10 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CC2E6B4A27CAEFF80093CE10 /* Project object */;
 }
