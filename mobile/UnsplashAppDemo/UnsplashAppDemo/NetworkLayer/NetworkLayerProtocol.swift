@@ -6,3 +6,8 @@
 //
 
 import Foundation
+import Combine
+
+protocol NetworkLayer {
+	func fetch(_ params:[String: Any]?) -> AnyPublisher<Data?, Error>
+}

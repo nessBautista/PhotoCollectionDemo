@@ -14,10 +14,30 @@
 		CC2E6B8227CAF0380093CE10 /* NetworkLayerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2E6B8127CAF0380093CE10 /* NetworkLayerTest.swift */; };
 		CC2E6B8527CAF05F0093CE10 /* NetworkLayerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2E6B8427CAF05F0093CE10 /* NetworkLayerProtocol.swift */; };
 		CC2E6B8727CAF0A40093CE10 /* EncoderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2E6B8627CAF0A40093CE10 /* EncoderProtocol.swift */; };
-		CC2E6B8927CAF10B0093CE10 /* RequestEnconder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2E6B8827CAF10B0093CE10 /* RequestEnconder.swift */; };
-		CC2E6B8D27CAF5290093CE10 /* URLEncoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2E6B8C27CAF5290093CE10 /* URLEncoderTests.swift */; };
+		CC2E6B8927CAF10B0093CE10 /* RequestEncoders.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2E6B8827CAF10B0093CE10 /* RequestEncoders.swift */; };
+		CC2E6B8D27CAF5290093CE10 /* EncoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2E6B8C27CAF5290093CE10 /* EncoderTests.swift */; };
 		CC2E6B9027CAF9C50093CE10 /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = CC2E6B8F27CAF9C50093CE10 /* OrderedCollections */; };
 		CC2E6B9227CAFFBE0093CE10 /* TestUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2E6B9127CAFFBE0093CE10 /* TestUtilities.swift */; };
+		CC619D4827EA9F3D003A12A3 /* DemoErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC619D4727EA9F3D003A12A3 /* DemoErrors.swift */; };
+		CC619D4B27EAA059003A12A3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC619D4A27EAA059003A12A3 /* Constants.swift */; };
+		CC86771A27D936AA00893249 /* OrderedDictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86771927D936AA00893249 /* OrderedDictionary+Extensions.swift */; };
+		CC86771C27D942CA00893249 /* DependencyContainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86771B27D942CA00893249 /* DependencyContainerTests.swift */; };
+		CC86771F27D943D500893249 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86771E27D943D500893249 /* MainView.swift */; };
+		CC86772127D9451A00893249 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86772027D9451A00893249 /* LaunchView.swift */; };
+		CC86772327D9453D00893249 /* LaunchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86772227D9453D00893249 /* LaunchViewModel.swift */; };
+		CC86772627D963A100893249 /* MockUserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86772527D963A100893249 /* MockUserSession.swift */; };
+		CC86772827D965B100893249 /* MockNetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86772727D965B100893249 /* MockNetworkLayer.swift */; };
+		CC86772A27D96A9300893249 /* UnsplashNetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC86772927D96A9300893249 /* UnsplashNetworkLayer.swift */; };
+		CC8E496427D54ED800F1F3C1 /* MainViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8E496327D54ED800F1F3C1 /* MainViewModelTest.swift */; };
+		CC8E496727D54F4300F1F3C1 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8E496627D54F4300F1F3C1 /* MainViewModel.swift */; };
+		CC8E496A27D550B800F1F3C1 /* UserSessionNavigationResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8E496927D550B800F1F3C1 /* UserSessionNavigationResponder.swift */; };
+		CC8E496D27D55D8000F1F3C1 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8E496C27D55D8000F1F3C1 /* DependencyContainer.swift */; };
+		CC8E497027D55F0B00F1F3C1 /* UserSessionCodableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8E496F27D55F0B00F1F3C1 /* UserSessionCodableTest.swift */; };
+		CC8E497527D57C5500F1F3C1 /* UserSessionCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8E497427D57C5500F1F3C1 /* UserSessionCodable.swift */; };
+		CC8E497827D57C9D00F1F3C1 /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8E497727D57C9D00F1F3C1 /* UserSession.swift */; };
+		CC8E498027D58C8C00F1F3C1 /* AuthUserSessionRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8E497E27D58BE600F1F3C1 /* AuthUserSessionRepo.swift */; };
+		CC8E498227D58D2900F1F3C1 /* AuthUserSessionRepoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8E498127D58D2900F1F3C1 /* AuthUserSessionRepoTest.swift */; };
+		CCC6F4CD27D683F300F953F9 /* Mocks.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC6F4CC27D683F300F953F9 /* Mocks.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +62,29 @@
 		CC2E6B8127CAF0380093CE10 /* NetworkLayerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayerTest.swift; sourceTree = "<group>"; };
 		CC2E6B8427CAF05F0093CE10 /* NetworkLayerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayerProtocol.swift; sourceTree = "<group>"; };
 		CC2E6B8627CAF0A40093CE10 /* EncoderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncoderProtocol.swift; sourceTree = "<group>"; };
-		CC2E6B8827CAF10B0093CE10 /* RequestEnconder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestEnconder.swift; sourceTree = "<group>"; };
-		CC2E6B8C27CAF5290093CE10 /* URLEncoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLEncoderTests.swift; sourceTree = "<group>"; };
+		CC2E6B8827CAF10B0093CE10 /* RequestEncoders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestEncoders.swift; sourceTree = "<group>"; };
+		CC2E6B8C27CAF5290093CE10 /* EncoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncoderTests.swift; sourceTree = "<group>"; };
 		CC2E6B9127CAFFBE0093CE10 /* TestUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUtilities.swift; sourceTree = "<group>"; };
+		CC619D4727EA9F3D003A12A3 /* DemoErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoErrors.swift; sourceTree = "<group>"; };
+		CC619D4A27EAA059003A12A3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CC86771927D936AA00893249 /* OrderedDictionary+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderedDictionary+Extensions.swift"; sourceTree = "<group>"; };
+		CC86771B27D942CA00893249 /* DependencyContainerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainerTests.swift; sourceTree = "<group>"; };
+		CC86771E27D943D500893249 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CC86772027D9451A00893249 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		CC86772227D9453D00893249 /* LaunchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewModel.swift; sourceTree = "<group>"; };
+		CC86772527D963A100893249 /* MockUserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserSession.swift; sourceTree = "<group>"; };
+		CC86772727D965B100893249 /* MockNetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkLayer.swift; sourceTree = "<group>"; };
+		CC86772927D96A9300893249 /* UnsplashNetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashNetworkLayer.swift; sourceTree = "<group>"; };
+		CC8E496327D54ED800F1F3C1 /* MainViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModelTest.swift; sourceTree = "<group>"; };
+		CC8E496627D54F4300F1F3C1 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		CC8E496927D550B800F1F3C1 /* UserSessionNavigationResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSessionNavigationResponder.swift; sourceTree = "<group>"; };
+		CC8E496C27D55D8000F1F3C1 /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
+		CC8E496F27D55F0B00F1F3C1 /* UserSessionCodableTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSessionCodableTest.swift; sourceTree = "<group>"; };
+		CC8E497427D57C5500F1F3C1 /* UserSessionCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSessionCodable.swift; sourceTree = "<group>"; };
+		CC8E497727D57C9D00F1F3C1 /* UserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
+		CC8E497E27D58BE600F1F3C1 /* AuthUserSessionRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthUserSessionRepo.swift; sourceTree = "<group>"; };
+		CC8E498127D58D2900F1F3C1 /* AuthUserSessionRepoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthUserSessionRepoTest.swift; sourceTree = "<group>"; };
+		CCC6F4CC27D683F300F953F9 /* Mocks.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Mocks.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +127,12 @@
 		CC2E6B5427CAEFF80093CE10 /* UnsplashAppDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CC8E496827D550A600F1F3C1 /* Navigation */,
+				CC70DF4427ECE94600922B3B /* Utils */,
+				CC86771D27D943C800893249 /* Views */,
+				CC8E497627D57C9700F1F3C1 /* Models */,
+				CC8E497227D57C1B00F1F3C1 /* Repositories */,
+				CC8E496527D54F3500F1F3C1 /* ViewModels */,
 				CC2E6B8327CAF0490093CE10 /* NetworkLayer */,
 				CC2E6B5527CAEFF80093CE10 /* UnsplashAppDemoApp.swift */,
 				CC2E6B5727CAEFF80093CE10 /* ContentView.swift */,
@@ -108,9 +154,14 @@
 		CC2E6B6627CAEFFA0093CE10 /* UnsplashAppDemoTests */ = {
 			isa = PBXGroup;
 			children = (
+				CC8E496E27D55EEF00F1F3C1 /* UserSession */,
+				CC8E496227D54EB100F1F3C1 /* ViewModels */,
 				CC2E6B8027CAF0260093CE10 /* NetworkLayer */,
+				CC86772427D9638000893249 /* Mocks */,
+				CCC6F4CC27D683F300F953F9 /* Mocks.xcassets */,
 				CC2E6B6927CAEFFA0093CE10 /* Info.plist */,
 				CC2E6B9127CAFFBE0093CE10 /* TestUtilities.swift */,
+				CC86771B27D942CA00893249 /* DependencyContainerTests.swift */,
 			);
 			path = UnsplashAppDemoTests;
 			sourceTree = "<group>";
@@ -119,7 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				CC2E6B8127CAF0380093CE10 /* NetworkLayerTest.swift */,
-				CC2E6B8C27CAF5290093CE10 /* URLEncoderTests.swift */,
+				CC2E6B8C27CAF5290093CE10 /* EncoderTests.swift */,
 			);
 			path = NetworkLayer;
 			sourceTree = "<group>";
@@ -128,10 +179,131 @@
 			isa = PBXGroup;
 			children = (
 				CC2E6B8427CAF05F0093CE10 /* NetworkLayerProtocol.swift */,
+				CC86772927D96A9300893249 /* UnsplashNetworkLayer.swift */,
 				CC2E6B8627CAF0A40093CE10 /* EncoderProtocol.swift */,
-				CC2E6B8827CAF10B0093CE10 /* RequestEnconder.swift */,
+				CC2E6B8827CAF10B0093CE10 /* RequestEncoders.swift */,
 			);
 			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		CC619D4627EA9F33003A12A3 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				CC619D4727EA9F3D003A12A3 /* DemoErrors.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		CC619D4927EAA04F003A12A3 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CC619D4A27EAA059003A12A3 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		CC70DF4427ECE94600922B3B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CC619D4927EAA04F003A12A3 /* Constants */,
+				CC619D4627EA9F33003A12A3 /* Errors */,
+				CC86771827D9369900893249 /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CC86771827D9369900893249 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CC86771927D936AA00893249 /* OrderedDictionary+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CC86771D27D943C800893249 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CC8E496B27D55D7500F1F3C1 /* Dependencies */,
+				CC86771E27D943D500893249 /* MainView.swift */,
+				CC86772027D9451A00893249 /* LaunchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC86772427D9638000893249 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				CC86772527D963A100893249 /* MockUserSession.swift */,
+				CC86772727D965B100893249 /* MockNetworkLayer.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		CC8E496227D54EB100F1F3C1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CC8E496327D54ED800F1F3C1 /* MainViewModelTest.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CC8E496527D54F3500F1F3C1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CC8E496627D54F4300F1F3C1 /* MainViewModel.swift */,
+				CC86772227D9453D00893249 /* LaunchViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CC8E496827D550A600F1F3C1 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				CC8E496927D550B800F1F3C1 /* UserSessionNavigationResponder.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		CC8E496B27D55D7500F1F3C1 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				CC8E496C27D55D8000F1F3C1 /* DependencyContainer.swift */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		CC8E496E27D55EEF00F1F3C1 /* UserSession */ = {
+			isa = PBXGroup;
+			children = (
+				CC8E496F27D55F0B00F1F3C1 /* UserSessionCodableTest.swift */,
+				CC8E498127D58D2900F1F3C1 /* AuthUserSessionRepoTest.swift */,
+			);
+			path = UserSession;
+			sourceTree = "<group>";
+		};
+		CC8E497227D57C1B00F1F3C1 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				CC8E497327D57C3F00F1F3C1 /* UserSessionRepository */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		CC8E497327D57C3F00F1F3C1 /* UserSessionRepository */ = {
+			isa = PBXGroup;
+			children = (
+				CC8E497E27D58BE600F1F3C1 /* AuthUserSessionRepo.swift */,
+				CC8E497427D57C5500F1F3C1 /* UserSessionCodable.swift */,
+			);
+			path = UserSessionRepository;
+			sourceTree = "<group>";
+		};
+		CC8E497627D57C9700F1F3C1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CC8E497727D57C9D00F1F3C1 /* UserSession.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +401,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCC6F4CD27D683F300F953F9 /* Mocks.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,10 +413,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC2E6B8527CAF05F0093CE10 /* NetworkLayerProtocol.swift in Sources */,
+				CC86771F27D943D500893249 /* MainView.swift in Sources */,
+				CC8E497827D57C9D00F1F3C1 /* UserSession.swift in Sources */,
+				CC86772127D9451A00893249 /* LaunchView.swift in Sources */,
 				CC2E6B5827CAEFF80093CE10 /* ContentView.swift in Sources */,
-				CC2E6B8927CAF10B0093CE10 /* RequestEnconder.swift in Sources */,
+				CC8E498027D58C8C00F1F3C1 /* AuthUserSessionRepo.swift in Sources */,
+				CC8E497527D57C5500F1F3C1 /* UserSessionCodable.swift in Sources */,
+				CC2E6B8927CAF10B0093CE10 /* RequestEncoders.swift in Sources */,
+				CC86772327D9453D00893249 /* LaunchViewModel.swift in Sources */,
+				CC8E496A27D550B800F1F3C1 /* UserSessionNavigationResponder.swift in Sources */,
+				CC86772A27D96A9300893249 /* UnsplashNetworkLayer.swift in Sources */,
 				CC2E6B8727CAF0A40093CE10 /* EncoderProtocol.swift in Sources */,
 				CC2E6B5627CAEFF80093CE10 /* UnsplashAppDemoApp.swift in Sources */,
+				CC619D4827EA9F3D003A12A3 /* DemoErrors.swift in Sources */,
+				CC8E496D27D55D8000F1F3C1 /* DependencyContainer.swift in Sources */,
+				CC8E496727D54F4300F1F3C1 /* MainViewModel.swift in Sources */,
+				CC86771A27D936AA00893249 /* OrderedDictionary+Extensions.swift in Sources */,
+				CC619D4B27EAA059003A12A3 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,9 +437,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC8E497027D55F0B00F1F3C1 /* UserSessionCodableTest.swift in Sources */,
+				CC86772827D965B100893249 /* MockNetworkLayer.swift in Sources */,
 				CC2E6B9227CAFFBE0093CE10 /* TestUtilities.swift in Sources */,
 				CC2E6B8227CAF0380093CE10 /* NetworkLayerTest.swift in Sources */,
-				CC2E6B8D27CAF5290093CE10 /* URLEncoderTests.swift in Sources */,
+				CC8E498227D58D2900F1F3C1 /* AuthUserSessionRepoTest.swift in Sources */,
+				CC2E6B8D27CAF5290093CE10 /* EncoderTests.swift in Sources */,
+				CC86772627D963A100893249 /* MockUserSession.swift in Sources */,
+				CC8E496427D54ED800F1F3C1 /* MainViewModelTest.swift in Sources */,
+				CC86771C27D942CA00893249 /* DependencyContainerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +664,107 @@
 			};
 			name = Release;
 		};
+		CC8E497927D57E7000F1F3C1 /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = TEST;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Test;
+		};
+		CC8E497A27D57E7000F1F3C1 /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"UnsplashAppDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = GQGZN6D9K9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = UnsplashAppDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.nesslab.com.UnsplashAppDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Test;
+		};
+		CC8E497B27D57E7000F1F3C1 /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQGZN6D9K9;
+				INFOPLIST_FILE = UnsplashAppDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.nesslab.com.UnsplashAppDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnsplashAppDemo.app/UnsplashAppDemo";
+			};
+			name = Test;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -480,6 +773,7 @@
 			buildConfigurations = (
 				CC2E6B7527CAEFFA0093CE10 /* Debug */,
 				CC2E6B7627CAEFFA0093CE10 /* Release */,
+				CC8E497927D57E7000F1F3C1 /* Test */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -489,6 +783,7 @@
 			buildConfigurations = (
 				CC2E6B7827CAEFFA0093CE10 /* Debug */,
 				CC2E6B7927CAEFFA0093CE10 /* Release */,
+				CC8E497A27D57E7000F1F3C1 /* Test */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -498,6 +793,7 @@
 			buildConfigurations = (
 				CC2E6B7B27CAEFFA0093CE10 /* Debug */,
 				CC2E6B7C27CAEFFA0093CE10 /* Release */,
+				CC8E497B27D57E7000F1F3C1 /* Test */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -12,6 +12,19 @@ enum EncoderType {
     case json
     case url
 }
+
 protocol EncoderProtocol {
-    func encode(params: OrderedDictionary<String,Any>)
+	var request: URLRequest {get set}
+    func encode(params: OrderedDictionary<String,Any>) throws
 }
+
+extension EncoderProtocol {
+	@discardableResult func validateURL() throws -> URL  {
+		guard let url = request.url else {
+			throw NetworkError.decoderError(message: Constants.ErrorMessages.invalid_url)
+		}
+		return url
+	}
+}
+
+

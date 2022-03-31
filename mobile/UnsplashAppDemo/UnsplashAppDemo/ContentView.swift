@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+	let container = DependencyContainer()
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+		container.makeMainView()
     }
 }
 
