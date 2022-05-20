@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UnsplashAPI</key>
+	<dict>
+		<key>basicAccess</key>
+		<string>public+read_user+read_photos+write_photos+write_likes+read_collections</string>
+		<key>redirect</key>
+		<string>urn:ietf:wg:oauth:2.0:oob</string>
+		<key>clientSecret</key>
+		<string>3k9IqdBlaJZKdBoNo_LlCDI1arxWevqmeq7FAAiciT8</string>
+		<key>clientId</key>
+		<string>TVaxbYcLeYTX5HSSlOASUAuZyQ_StH1sfsxehsWL_Oc</string>
+	</dict>
+</dict>
+</plist>

@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct TestView: View {
-	var dismiss:(()->Void)!
+	var dismiss:(()->Void)?
     var body: some View {
         Text("Test View")
 			.onTapGesture {
-				dismiss()
+				dismiss?()
 			}
     }
 }

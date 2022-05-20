@@ -1,0 +1,12 @@
+Error from getpwuid_r: 0 (Undefined error: 0)
+Filtering the log data using "composedMessage CONTAINS "PerformanceVisibility.App""
+Timestamp                       Thread     Type        Activity             PID    TTL  
+2022-04-13 17:57:02.410132-0500 0x66d71    Default     0x0                  12808  0    PerformanceVisibility: [com.performance.app:AppPerformance] PerformanceVisibility.App - 252508C2-7D19-40CB-93AD-7311A7E142FB-started
+2022-04-13 17:57:02.410455-0500 0x66d71    Default     0x0                  12808  0    PerformanceVisibility: [com.performance.app:AppPerformance] PerformanceVisibility.App - 252508C2-7D19-40CB-93AD-7311A7E142FB-finished
+2022-04-13 17:57:02.410506-0500 0x66d71    Default     0x0                  12808  0    PerformanceVisibility: [com.performance.app:AppPerformance] PerformanceVisibility.App - FC0DEDED-9D64-437F-A9CB-3A0A0CC10C90-started
+2022-04-13 17:57:02.410588-0500 0x66d71    Default     0x0                  12808  0    PerformanceVisibility: [com.performance.app:AppPerformance] PerformanceVisibility.App - FC0DEDED-9D64-437F-A9CB-3A0A0CC10C90-finished
+2022-04-13 17:57:02.410632-0500 0x66d71    Default     0x0                  12808  0    PerformanceVisibility: [com.performance.app:AppPerformance] PerformanceVisibility.App - 2FB52728-7CDC-4AB1-B9B8-F4B0AD2A3338-started
+2022-04-13 17:57:02.411015-0500 0x66d71    Default     0x0                  12808  0    PerformanceVisibility: [com.performance.app:AppPerformance] PerformanceVisibility.App - 2FB52728-7CDC-4AB1-B9B8-F4B0AD2A3338-finished
+2022-04-13 17:57:02.411350-0500 0x66d71    Default     0x0                  12808  0    PerformanceVisibility: [com.performance.app:AppPerformance] PerformanceVisibility.App - C67BD60D-7DFB-46F6-A752-19E8585AB132-started
+2022-04-13 17:57:02.411686-0500 0x66d71    Default     0x0                  12808  0    PerformanceVisibility: [com.performance.app:AppPerformance] PerformanceVisibility.App - C67BD60D-7DFB-46F6-A752-19E8585AB132-finished
+Child process terminated with signal 15: Terminated

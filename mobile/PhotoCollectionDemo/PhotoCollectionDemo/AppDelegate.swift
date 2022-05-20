@@ -11,14 +11,12 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 	var window: UIWindow?
-
+	let container: DependencyContainer = DependencyContainer()
+	
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
 		self.window = UIWindow(frame: UIScreen.main.bounds)
-		let vc = ViewController()
-		let navController = UINavigationController(rootViewController: vc)
-		self.window?.rootViewController = navController
-		
+		self.window?.rootViewController = container.makeMainViewController()
 		self.window?.makeKeyAndVisible()
 		return true
 	}

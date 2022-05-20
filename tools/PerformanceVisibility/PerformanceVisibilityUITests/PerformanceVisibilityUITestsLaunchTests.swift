@@ -1,13 +1,13 @@
 //
-//  PhotoCollectionDemoUITestsLaunchTests.swift
-//  PhotoCollectionDemoUITests
+//  PerformanceVisibilityUITestsLaunchTests.swift
+//  PerformanceVisibilityUITests
 //
-//  Created by Nestor Hernandez on 31/03/22.
+//  Created by Nestor Hernandez on 13/04/22.
 //
 
 import XCTest
 
-class PhotoCollectionDemoUITestsLaunchTests: XCTestCase {
+class PerformanceVisibilityUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

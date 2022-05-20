@@ -1,14 +1,14 @@
 //
-//  PhotoCollectionDemoTests.swift
-//  PhotoCollectionDemoTests
+//  PerformanceVisibilityTests.swift
+//  PerformanceVisibilityTests
 //
-//  Created by Nestor Hernandez on 31/03/22.
+//  Created by Nestor Hernandez on 13/04/22.
 //
 
 import XCTest
-@testable import PhotoCollectionDemo
+@testable import PerformanceVisibility
 
-class PhotoCollectionDemoTests: XCTestCase {
+class PerformanceVisibilityTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
